@@ -1,0 +1,75 @@
+<style>
+  #divObjetos {
+  background-color: #D2691E;
+  border: 1px solid #808080;
+  width: 330px;
+  height: 285px;
+  padding: 10px;
+}
+
+#labelListaLinha, #labelListaProduto, #labelLinha {
+  display: block;
+  margin-top: 10px;
+}
+
+#listaLinha, #listaProduto, #Linha {
+  width: 70%;
+  margin-top: 5px;
+}
+
+#Linha {
+  display: block;
+  height: 19px;
+  margin-top: 10px;
+}  
+
+#labelProduto {
+  display: block;
+  margin-top: 5px;
+}
+
+#Produto {
+  display: block;
+  width: 278px;
+  height: 19px;
+  margin-top: 5px;
+}
+
+#btnLimpar, #btnSalvar, #btnEditar, #btnExcluir {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px; 
+  cursor: pointer;
+  width: 70px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+#btnLimpar {
+  background-color: #00BFFF;
+}
+
+#btnSalvar {
+  background-color: #00FF00;
+  margin-left: 10px;
+}
+#btnEditar {
+  background-color: #FFFF00;
+  margin-left: 10px;
+}
+#btnExcluir{
+  background-color: #FF0000;
+  margin-left: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
