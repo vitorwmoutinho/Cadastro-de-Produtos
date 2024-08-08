@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <base target="_top">
+    
+    <!-- Inclui o estilo do produto -->
+    <?!= include("EstiloProduto") ?>
+  </head>
+  <body>
+    <div id="divObjetos">
+      <!-- Conteúdo do formulário -->
+      <label id="labelListaLinha">Tipo</label>
+      <select id="listaLinha" class="browser-default">
+        <option value="" disabled selected>Escolha um tipo de produto</option>
+      </select>
+
+      <label id="labelListaProduto">Produto</label>
+      <select id="listaProduto" class="browser-default">
+        <option value="" disabled selected>Escolha um produto</option>
+      </select>
+
+      <label id="labelLinha">Linha</label>
+      <input id="Linha" type="text" oninput="CaixaAlta(event)">
+
+      <label id="labelproduto">Produto</label>
+      <input id="Produto" type="text" oninput="CaixaAlta(event)">
+        <!-- Botões -->
+      <button id="btnLimpar">Limpar</button>
+      <button id="btnSalvar">Salvar</button>
+      <button id="btnEditar">Editar</button>
+      <button id="btnExcluir">Excluir</button>
+     
+      
+
+
+    </div>
+    
+    <!-- Inclui o script do formulário de produto -->
+    <?!= include("FormProduto-js") ?> 
+  </body>
+</html>
